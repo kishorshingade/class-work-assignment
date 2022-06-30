@@ -1,0 +1,57 @@
+
+/* header */
+header{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+}
+.l{
+    margin:50px;
+    list-style: none;
+    color: aqua;
+    font-size: 17px;
+    cursor: pointer;
+}
+/* logo */
+.logo{
+    color: aqua;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* left box */
+.left{
+    background-color: yellow;
+    width: 20vw;
+    height: 67vh;
+    float: left;
+    margin-top: 30px;
+}
+/* right box */
+.right{
+    background-color: yellow;
+    width: 20vw;
+    height: 67vh;
+    float: right;
+    margin-top: 30px;
+}
+ul li{
+    margin:7px;
+    font-weight: 600;
+}
+/* footer */
+footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: -445px;
+}
+.copy{
+    text-align: center;
+    padding: 17px;
+}
